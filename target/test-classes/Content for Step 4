@@ -1,3 +1,5 @@
+// In Datei BDDShowcaseStepDefinitions.java
+
 package bddshowcasepackage;
 
 import io.cucumber.java.de.Angenommen;
@@ -25,8 +27,8 @@ public class BDDShowcaseStepDefinitions {
 
     }
     @Dann("berechnet das System korrekt die gesetzlich vorgeschriebene Ruhepause von {int} Minuten")
-    public void berechnet_das_system_korrekt_die_gesetzlich_vorgeschriebene_ruhepause_von_minuten (Integer pauseTime) {
-
-        assertEquals(pauseTime, aEmployee.getPauseTime(aStartTime, aEndTime), 0);
+    public void berechnet_das_system_korrekt_die_gesetzlich_vorgeschriebene_ruhepause_von_minuten(Integer int1) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
     }
 }

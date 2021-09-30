@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: bddshowcasepackage.BDDShowcaseTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.138 sec <<< FAILURE!
+Verteilung der Stunden auf ein Projekt(Erfassen von Arbeitszeiten im System)  Time elapsed: 0.085 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "der Mitarbeiter seine Arbeitszeit auf Projekte verteilt" is undefined. You can implement it using the snippet(s) below:
+
+@Wenn("der Mitarbeiter seine Arbeitszeit auf Projekte verteilt")
+public void der_mitarbeiter_seine_arbeitszeit_auf_projekte_verteilt() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Dann("ist die Summe der Einzelzeiten identisch mit der Gesamtzeit")
+public void ist_die_summe_der_einzelzeiten_identisch_mit_der_gesamtzeit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dann("der gesetzlich vorgeschriebene Pausenabzug ist eingehalten")
+public void der_gesetzlich_vorgeschriebene_pausenabzug_ist_eingehalten() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
